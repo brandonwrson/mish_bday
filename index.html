@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="container">
-    <button id="clickMeButton">Click Me!</button>
-    <div id="flowers" class="hidden"></div>
-    <div id="birthdaySign" class="hidden">Happy Birthday!</div>
-</div>
-<script src="script.js"></script>
+    <div id="container">
+        <button id="clickMeButton">Click Me!</button>
+        <div id="imageStack" class="hidden"> <!-- Wrap the images for better control -->
+            <div id="sideBySide"> <!-- Container for side-by-side images -->
+                <img id="flowers" src="flowers.gif" alt="Flowers"/>
+                <img id="hearts" src="hearts.gif" alt="Hearts"/> <!-- Added hearts.gif -->
+            </div>
+            <img src="happy_birthday.png" id="birthdayImage" alt="Happy Birthday">
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
