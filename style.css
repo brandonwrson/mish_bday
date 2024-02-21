@@ -5,6 +5,8 @@ body, html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #fdfd96; /* Pastel yellow background */
+
 }
 
 #clickMeButton {
